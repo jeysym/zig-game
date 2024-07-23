@@ -1,0 +1,3 @@
+# Ignore Zig intermediate files.
+/zig-cache
+/zig-out
