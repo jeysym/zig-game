@@ -29,6 +29,7 @@ pub fn build(b: *std.Build) void {
         .linux => {
             exe.linkSystemLibrary("c");
             exe.linkSystemLibrary("gtk+-3.0");
+            exe.linkSystemLibrary("X11");
         },
         else => {},
     }
